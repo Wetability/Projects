@@ -1,0 +1,22 @@
+@import "./variables";
+@import "./main";
+
+// * Components
+@import "./components/index";
+
+// * Elements
+@import "./elements/index";
+
+// ==============================================================
+
+.container {
+  max-width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  @extend %flex;
+  align-items: center;
+}
+
+a {
+  font-size: 24px;
+}
