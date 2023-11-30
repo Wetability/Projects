@@ -17,6 +17,20 @@
   align-items: center;
 }
 
+.list {
+  @extend %flex;
+  gap: 20px;
+}
+
 a {
+  border: 1px solid #000;
+  background-color: #00ffff;
+  padding: 10px 20px;
   font-size: 24px;
+
+  &:hover {
+    color: #fff;
+    background-color: #000;
+    transition: all 0.4s ease-in;
+  }
 }
