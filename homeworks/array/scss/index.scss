@@ -1,0 +1,22 @@
+@import "../../../scss/variables";
+@import "../../../scss/main";
+
+.container {
+  max-width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  @extend %flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+h1 {
+  font-size: 30px;
+  color: #b80606;
+}
+
+a {
+  font-size: 24px;
+}
