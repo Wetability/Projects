@@ -1,0 +1,31 @@
+// * Main imports
+@import "../../../scss/variables";
+@import "../../../scss/base";
+
+// * Components
+@import "./components/main_title.scss";
+@import "./components/home.scss";
+
+// * Styles
+#app {
+  @extend %flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  max-width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.js-playlist {
+  @extend %flex;
+  flex-direction: column;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.js-odd {
+  background-color: #000;
+  color: #fff;
+}
